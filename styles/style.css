@@ -1,0 +1,97 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    height: 70px;
+    background-color: hotpink;
+}
+
+header nav {
+    text-align: center;
+    line-height: 70px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 1.7em;
+}
+
+#hero-wrapper {
+    width: 100vw;
+    height: 70vh;
+    background-color: antiquewhite;
+}
+
+#list-wrapper {
+    display: flex;
+    
+}
+
+#three-div-list {
+    text-align: center;
+    padding-left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 150px;
+
+}
+
+#three-div-list li {
+    display: flex;
+    
+}
+
+#three-div-list li div {
+    height: 350px;
+    width: 350px;
+    background-color: hotpink;
+    display: inline-block;
+}
+
+#intro-wrapper {
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-wrapper p {
+    width: 90vw;
+    font-size: 1.5em;
+    text-indent: 25px;
+}
+
+#social-media-wrapper {
+    height: 150px;
+    width: 100vw;
+    background-color: hotpink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#social-media-wrapper ul {
+    list-style-type: none;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#social-media-wrapper ul li {
+    display: inline;
+    
+}
+
+#social-media-wrapper ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
