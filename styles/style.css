@@ -24,7 +24,9 @@ header nav a {
 #hero-wrapper {
     width: 100vw;
     height: 70vh;
-    background-color: antiquewhite;
+    background-image: url('https://images.pexels.com/photos/6954162/pexels-photo-6954162.jpeg?auto=compress&cs=tinysrgb&w=1600');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #list-wrapper {
@@ -52,6 +54,15 @@ header nav a {
     width: 350px;
     background-color: hotpink;
     display: inline-block;
+    -webkit-box-shadow: 0px 0px 31px 0px rgba(97,90,97,1);
+-moz-box-shadow: 0px 0px 31px 0px rgba(97,90,97,1);
+box-shadow: 0px 0px 31px 0px rgba(97,90,97,1);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    /* Ensures the text inside the div is centered */
 }
 
 #intro-wrapper {
@@ -93,5 +104,30 @@ header nav a {
     color: white;
     text-decoration: none;
     font-size: 1.5em;
+}
+
+#episode-list {
+    width: 100vw;
+    padding: 20px;
+    /* background-color: #fff0f5; Light pink background for better visibility */
+    display: flex;
+    justify-content: center;
+    list-style-type: none; /* Remove default list styling */
+}
+
+.episode-item {
+    padding: 20px;
+    border: 1px solid hotpink;
+    border-radius: 5px;
+    margin: 10px 0;
+    background-color: #fff0f5; /* Light pink background for better visibility */
+}
+.episode-item h3 {
+    margin: 0;
+    color: hotpink;
+}
+.episode-item p {
+    margin: 5px 0 0;
+    color: #333; /* Darker text for better readability */
 }
 
